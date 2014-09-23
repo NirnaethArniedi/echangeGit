@@ -1,0 +1,76 @@
+%%%%%%%%%%%%%%%GradJ.com%%%%%%%%%%%%%%%%%%%%%%%%%
+%Cet exemple ainsi que tous les autres, ont t repris du site internet http://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/examples
+
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[blue]{classic} 
+\usepackage[utf8]{inputenc}  %Windows 
+%\usepackage[applemac] {inputenc} %Mac Os enlevez ces lignes si vous tes sur Windows, et vice versa. 
+\usepackage[english] {babel}    %Mac Os
+\usepackage[scale=0.8]{geometry}
+
+\firstname{Augustin}
+\familyname{Lenormand}        
+\email{augustin.lenormand@polytechnique.edu}           
+\address{10 Boulevard des Maréchaux}{Studio 10 14}{91120 Palaiseau}   
+\mobile{06 66 88 38 51}                        
+                         
+\extrainfo{Born on April 17th 1993 (21 years old)}
+\extrainfo{French Nationality}
+%\photo[64pt]{picture} 
+%\quote{Some quote (optional)}                
+
+
+
+
+
+\usepackage{multibib}
+\newcites{book,misc}{{Books},{Others}}
+
+\nopagenumbers{}                         
+\begin{document}
+\maketitle
+\section{Educational Background}
+    \cventry{2013 (--2017)}{École polytechnique}{Paris}{Paris Saclay University}{}{One of the leading engineering schools in France \newline Second year student on a 4-years degree}
+    \cventry{Oct 2013 -- Dec 2014}{Special Military School of Saint-Cyr}{Coëtquidan in Guer}{}{}{Training camp in the foremost French military academy to learn the basics of an officer of the French Army.}
+  %  \cventry{year--year}{degree or job title}{institution or employer}{city}{grade}{description}
+	\cventry{2011--2013}{Lycée Henri Poincaré}{Nancy}{}{}{Intensive post-secondary programme to prepare for the competitive entrance exams to France's top engineering schools with a specialisation in Physics and Chemistry.}
+	\cventry{2010}{Lycée Jeanne d'Arc}{Nancy}{}{}{Baccalaureate with distinctions, specialisation in mathematics. }  % arguments 3 to 6 can be left empty
+%\cvline{2010}{Bac S, mention très bien}
+
+
+
+\section{Work experience}
+\cventry{Dec 2013 -- Apr 2014}{Internship}{Aix en Provence Military High School}{}{Assistant teacher}{The Aix-en-Provence Military High School hosts students whose parents are part of the army or from difficult social background.\newline Helping small groups of students facing learning difficulties.}
+
+\cvline{2013, 2014}{\textbf{Summer camp animator}}
+
+%\cventry{year--year}{degree or job title}{institution or employer}{city}{grade}{description}
+
+
+\section{Langages and skills}
+\subsection{Langages skills}
+\cvitemwithcomment{French}{Mothertongue}{}
+\cvitemwithcomment{English}{Intermediate}{}
+\cvitemwithcomment{German}{Basic}{}
+\subsection{Computer skills}
+\cvitemwithcomment{\LaTeX}{Intermediate}{}
+\cvitemwithcomment{Java}{Basic}{}
+\cvitemwithcomment{GNU Linux}{Familiar}{}
+\cvitemwithcomment{Networking}{Basics}{}
+
+\section{Interest and activities}
+\begin{itemize}
+\item Rowing since ten years, French international rower in 2010--2011 (Participated in the World Rowing Junior Championship in 2011), many medals in French Championships over the years.
+\item Organisation of the annual Indoor Rowing Event of the École polytechnique.
+\item Organisation of the rock dancing evenings at the École polytechnique.
+
+\end{itemize}
+%\cv
+%\cvline{Depuis 2004}{Pratique de l'aviron en compétition}
+%\cvline{2002--2006}{Pratique du chant en chorale}
+
+
+\end{document}
